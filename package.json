@@ -13,7 +13,9 @@
   ],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "sequelize": "^5.21.2"
+  },
   "devDependencies": {
     "eslint": "^6.6.0",
     "jest": "^24.9.0",
