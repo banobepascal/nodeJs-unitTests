@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 const lib = require('../testing-demo/lib');
 
 describe('absolute', () => {
