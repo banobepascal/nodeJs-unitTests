@@ -1,4 +1,4 @@
-const lib = require("../testing-demo/lib");
+const lib = require("../lib");
 
 describe("getCurrencies", () => {
   it("should return true if currency is available", () => {

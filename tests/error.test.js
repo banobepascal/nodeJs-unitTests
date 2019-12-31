@@ -1,4 +1,4 @@
-const lib = require('../testing-demo/lib');
+const lib = require('../lib');
 
 describe('registerUser', () => {
     it('should throw if username is falsy', () => {

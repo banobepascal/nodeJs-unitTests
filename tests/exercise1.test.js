@@ -1,4 +1,4 @@
-const lib = require('../testing-demo/exercise1');
+const lib = require('../exercise1');
 
 describe('fizzBuzz', () => {
     it('should throw exception if input is not number', () => {

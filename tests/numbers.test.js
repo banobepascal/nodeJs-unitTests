@@ -1,4 +1,4 @@
-const lib = require('../testing-demo/lib');
+const lib = require('../lib');
 
 describe('absolute', () => {
     it('should return a positive number if input is positive', () => {

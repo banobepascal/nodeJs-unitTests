@@ -1,6 +1,6 @@
-const lib = require('../testing-demo/lib');
-const db = require('../testing-demo/db');
-const mail = require('../testing-demo/mail');
+const lib = require('../lib');
+const db = require('../db');
+const mail = require('../mail');
 
 describe('applyDiscount', () => {
     it('should apply 10% discount if customer has more than 10 points', () => {

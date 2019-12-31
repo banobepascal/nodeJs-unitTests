@@ -1,4 +1,4 @@
-const lib = require('../testing-demo/lib');
+const lib = require('../lib');
 
 describe('getProduct', () => {
     it('should return product with given id', () => {
