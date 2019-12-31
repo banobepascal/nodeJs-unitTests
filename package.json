@@ -4,7 +4,8 @@
   "description": "unit testing",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "nodemon index.js",
+    "test": "jest"
   },
   "keywords": [
     "jest",
@@ -28,7 +29,8 @@
     "winston-mongodb": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0"
-    ""
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
   }
 }
